@@ -16,3 +16,10 @@ pipeline {
                 build "SampleDeployJob"
             }
         }
+        stage('Four') {
+            steps {
+                build "SampleTestJob"
+            }
+        }
+    }
+}
